@@ -6,3 +6,5 @@
 
 - I am also currently in the process of building my own AI to power this chatbox, once it is created, I will create a new repository containing the source code for the AI 
   along with the chatbox
+
+for this project I used; Python (with Flask), HTML, CSS, and Javascript
