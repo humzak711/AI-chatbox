@@ -32,8 +32,8 @@ def receive_message():
         ai_response = response['choices'][0]['text'].strip()
         return jsonify({'response': ai_response})
     
-    except openai.error.OpenAIError as e:
-        return jsonify({'error': str(e)})
+    except openai.error.OpenAIError as error:
+        return jsonify({'error': str(error)})
     
 
 # run the app
