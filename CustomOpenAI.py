@@ -7,7 +7,7 @@ app = Flask(__name__) # Initialise flask web application
 
 
 # Home
-@app.route("/", methods=["GET"])
+@app.route("/")
 def index():
     return render_template("chatbox.html")
 
