@@ -1,1 +1,68 @@
+/* CSS styles */
+body, html {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-size: 14px; /* Adjust the base font size */
+    }
 
+h1 {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 24px; /* Adjust the font size for the heading */
+    }
+
+#githubicon {
+      margin-right: 4px;
+      position: relative;
+      top: 6px; /* Center the github icon */
+    }
+
+.chat-container {
+      height: calc(100% - 80px); /* Adjusted height for the header */
+      display: flex;
+      flex-direction: column;
+    }
+
+.chat-box {
+      flex: 1;
+      overflow-y: auto;
+      padding: 10px; /* Reduced padding */
+      border-left: 3px solid #ccc; /* Reduced border size */
+      border-right: 3px solid #ccc; /* Reduced border size */
+    }
+
+.message {
+      margin-bottom: 5px; /* Reduced margin */
+      word-wrap: break-word;
+      display: flex;
+      word-break: break-all; /* Added to allow long words/messages to break */
+    }
+
+.user-message {
+      text-align: left;
+      margin-left: auto;
+      font-size: 14px; /* Adjust the font size for messages */
+    }
+
+.ai-message {
+      text-align: left;
+      margin-left: auto;
+      font-size: 14px; /* Adjust the font size for messages */
+      color: blue;
+    }
+
+#user-input {
+      width: calc(100% - 20px); /* Reduced width */
+      min-height: 25px; /* Reduced height */
+      padding: 5px; /* Reduced padding */
+      margin: 5px;
+      font-size: 14px; /* Adjust the font size for input */
+    }
+
+button {
+      padding: 5px 10px; /* Reduced padding */
+      font-size: 14px; /* Adjust the font size for button */
+      background-color: aqua;
+      transition: transform 0.1s ease; /* Smooth transition for button scaling */
+    }
